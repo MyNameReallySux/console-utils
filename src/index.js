@@ -1,1 +1,5 @@
-export { ConsoleUtils } from './ConsoleUtils'
+export { 
+    ConsoleUtils,
+    print, info, debug, warn, error,
+    supressConsole, restoreConsole
+} from './ConsoleUtils'
